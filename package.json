@@ -9,24 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/react": "latest",
+    "@ai-sdk/xai": "latest",
+    "@vercel/analytics": "^2.0.1",
+    "ai": "latest",
+    "clsx": "^2.1.1",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@ai-sdk/xai": "latest",
-    "@ai-sdk/react": "latest",
-    "ai": "latest",
-    "clsx": "^2.1.1",
     "tailwind-merge": "^2.5.0"
   },
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5",
-    "tailwindcss": "^3.4",
-    "postcss": "^8",
     "autoprefixer": "^10",
     "eslint": "^9",
-    "eslint-config-next": "^15"
+    "eslint-config-next": "^15",
+    "postcss": "^8",
+    "tailwindcss": "^3.4",
+    "typescript": "^5"
   }
 }
